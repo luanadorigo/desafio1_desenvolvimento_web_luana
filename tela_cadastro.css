@@ -1,0 +1,75 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: bisque;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#botaoSalvar {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #c93941;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fa1e29;
+}
+
+footer {
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+
+#redirecionar {
+    background-color: #ffffff;
+    color: #080808;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#redirecionar:hover {
+    background-color: rgb(255, 213, 161);
+}
+
+#vagasDisponiveis {
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}

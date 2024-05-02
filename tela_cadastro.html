@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de reserva de vaga</title>
+    <link rel="stylesheet" href="tela_cadastro.css">
+  
+</head>
+<body>
+    <header>
+    <h1> Cadastro de reserva de vaga </h1>
+    <p> Preencha seus dados abaixo para realizar o cadastro da vaga de estacionamento</p>
+</header>
+<main>
+    <form id="formulario">
+        <label for="placaVeiculo">Placa do veículo:</label><br>
+        <input type="text" id="placaVeiculo" name= "placaVeiculo"><br>
+        
+        <label for="nomeDoProprietario">Nome do proprietário:</label><br>
+        <input type="text" id="nomeDoProprietario" name="nomeDoProprietario" required><br>
+
+        <label for="numeroDoApartamento">Número do apartamento:</label><br>
+        <input type="text" id="numeroDoApartamento" name="numeroDoApartamento" required><br>
+
+        <label for="blocoDoApartamento">Bloco do apartamento:</label><br>
+        <input type="text" id="blocoDoApartamento" name="blocoDoApartamento" required><br>
+
+        <label for="modeloDoVeiculo">Modelo do veículo:</label><br>
+        <input type="text" id="modeloDoVeiculo" name="modeloDoVeiculo"><br>
+
+        <label for="corDoVeiculo">Cor do veículo:</label><br>
+        <input type="text" id="corDoVeiculo" name="corDoVeiculo" required><br>
+
+        <label for="numeroDaVagaDoEstacionamento">Número da vaga de estacionamento:</label><br>
+        <input type="text" id="numeroDaVagaDoEstacionamento" name ="numeroDaVagaDoEstacionamento" required><br>
+<div id="botaoSalvar">
+        <input type="submit" id="salvarReserva" value="Salvar reserva" >
+    </div>
+    </form>
+</main>
+<footer>
+    <button id = "redirecionar" onclick="redirecionarTela()">Ver vagas </button>
+</footer>
+    <script src='tela_cadastro.js'></script>
+    
+
+</body>
+</html>
