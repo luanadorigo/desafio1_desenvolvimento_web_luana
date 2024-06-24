@@ -34,3 +34,6 @@ document.getElementById("salvarReserva").addEventListener("click", function() {
     function redirecionarTela() {
         window.location.href = 'vagas_disponiveis.html';
     }
+
+
+teste();
